@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fonction pour charger les traductions
     function loadTranslations(language) {
         // Détermine le chemin du fichier JSON en fonction de la langue
-        const url = `../html/src/${language}.json`;
+        const url = `../src/${language}.json`;
         console.log('Chargement des traductions depuis :', url);
         
         // Effectue une requête fetch pour récupérer le fichier JSON
